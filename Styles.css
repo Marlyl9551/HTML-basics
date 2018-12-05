@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+body{
+    background: dimgrey; font-family: 'Pacifico', cursive;
+    color: white;
+}
+    table{
+        width: 40%;
+        margin: auto;
+        border:1px darkgoldenrod solid;
+    }
+    th{
+        background: orangered;
+        text-align: left;
+        padding: 12px;
+        color: black;
+    }
+    td{
+        border: 1px solid white;
+        padding-left: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    table, th, td{
+        border-collapse: collapse;
+    }

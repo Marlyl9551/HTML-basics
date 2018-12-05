@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        body{
+            background: pinl;
+        }
+        form{
+            width: 30%;
+            margin: auto;
+            background: orange;
+            border: 2px groove blue;
+            padding: 12px;
+        }
+        .M{
+            width: 100%;
+            margin-bottom: 12px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 8px;
+            box-sizing: border-box;
+        }
+        span{
+            color: white;
+            display: block;
+        }
+        p{
+            color: blue;
+        }
+        button{
+            background: darkgreen;
+            margin-top: 18px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<form action="">
+    <input class= "M" type="Name"  placeholder="Enter Name" required>
+    <input class = "M" type="email" placeholder="Enter email" required>
+    <input class="M" type="password" placeholder="Enter password" required>
+    <input class="M" type="date" placeholder="Enter Date Of Birth" required>
+    <!--DOB, age, gender(radio button), course (select Menu) -->
+    <br>
+    <input type="age" placeholder="Enter age" min="20" max="100" required>
+    <span> <input type="radio" name="gender" value="male" checked> Male<br></span>
+    <span> <input type="radio" name="gender" value="female"> Female<br></span>
+
+<div class="custom-select" style="width:200px;">
+  <select class="M">
+    <option value="0">Select phone:</option>
+    <option value="1">Iphone</option>
+    <option value="2">Samsung</option>
+    <option value="3">Oppo</option>
+    <option value="4">Huawei</option>
+    <option value="5">Tecno</option>
+    <option value="6">Wiko</option>
+    <option value="7">Nokia </option>
+    <option value="8">BlackBerry</option>
+    <option value="9">Sony</option>
+    <option value="10">HTC</option>
+    <option value="11">Infinix</option>
+    <option value="12">Microsoft</option>
+  </select>
+</div>
+<p>Select Your Favourite Sports</p>
+    <span><input type="checkbox">Football</span>
+    <span><input type="checkbox">volleyball</span>
+    <span><input type="checkbox">Swimming</span>
+    <span><input type="checkbox">dancing</span>
+    <span><input type="checkbox">Jumping</span>
+    <br>
+    <button>Register</button>
+
+    
+    
+    
+</form>
+
+</body>
+</html>
